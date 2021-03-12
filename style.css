@@ -15,11 +15,24 @@ header {
     height: 40px;
 }
 
+nav {
+    display: grid;
+    grid-template-columns: 50px 55px 3fr 8fr auto auto;
+    grid-gap: 5px;
+    align-content: center;
+    height: 40px;
+}
+
 nav button {
     background-color: rgb(53, 87, 110);
     color: #ffffff;
     border: none;
     border-radius: 5%;
+    padding: 5px 10px;
+}
+
+nav > * {
+    align-self: center;
 }
 
 h1 {
