@@ -12,6 +12,14 @@ body {
 header {
     background-color: aliceblue;
     grid-column: 1 / -1;
+    height: 40px;
+}
+
+nav button {
+    background-color: rgb(53, 87, 110);
+    color: #ffffff;
+    border: none;
+    border-radius: 5%;
 }
 
 h1 {
@@ -39,15 +47,23 @@ aside {
 }
 
 .side1 {
-    grid-column: -3 / -2;
+    grid-column: -3 / -1;
+    margin-right: 20px;
 }
 
 .side2 {
-    grid-column: 2 / 7;
+    grid-column: 1 / 12;
+    margin-left: 20px;
+    
 }
 
 .side3 {
-    grid-column: -4 / -2;
+    grid-column: 12 / -1;
+    margin-right: 20px;
+}
+
+.side3 > * {
+    display: block;
 }
 
 footer {
