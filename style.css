@@ -9,6 +9,8 @@ body {
     grid-gap: 10px;
 }
 
+/* navigatie */
+
 header {
     background-color: aliceblue;
     grid-column: 1 / -1;
@@ -35,8 +37,15 @@ nav > * {
     align-self: center;
 }
 
+.tnyt {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/* article */
+
 h1 {
-    background-color: antiquewhite;
     grid-column: 5 / -5;
 }
 
@@ -46,7 +55,6 @@ h1 {
 }
 
 article {
-    background-color: aqua;
     grid-column: 4 / -4;
 }
 
@@ -54,6 +62,8 @@ article {
     background-color: aquamarine;
     grid-column: 3 / -3;
 }
+
+/* asides */
 
 aside {
     background-color: bisque;
@@ -72,6 +82,7 @@ aside {
 
 .side3 {
     grid-column: 12 / -1;
+    grid-row: 7 / 10;
     margin-right: 20px;
 }
 
@@ -79,7 +90,11 @@ aside {
     display: block;
 }
 
+/* footer */
+
 footer {
     background-color: cadetblue;
     grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-around;
 }
