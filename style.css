@@ -12,9 +12,9 @@ body {
 /* navigatie */
 
 header {
-    background-color: aliceblue;
     grid-column: 1 / -1;
     height: 40px;
+    border-bottom: 1px #d6d4d4 solid;
 }
 
 nav {
@@ -23,6 +23,7 @@ nav {
     grid-gap: 5px;
     align-content: center;
     height: 40px;
+    padding: 0px 10px;
 }
 
 nav button {
@@ -54,6 +55,11 @@ h1 {
     width: 945px;
 }
 
+figcaption {
+    grid-column: 3 / 13;
+    font-size: 12px;
+}
+
 article {
     grid-column: 4 / -4;
 }
@@ -64,25 +70,27 @@ article {
 }
 
 /* asides */
-
-aside {
-    background-color: bisque;
-}
-
 .side1 {
     grid-column: -3 / -1;
+    grid-row-start: 5;
     margin-right: 20px;
 }
 
+.side1 h3 {
+    border-bottom: 1px solid #d6d4d4;
+}
+
 .side2 {
+    border-top: 2px solid #d6d4d4;
     grid-column: 1 / 12;
     margin-left: 20px;
     
 }
 
 .side3 {
+    border-top: 2px solid #d6d4d4;
     grid-column: 12 / -1;
-    grid-row: 7 / 10;
+    grid-row: 8 / 11;
     margin-right: 20px;
 }
 
@@ -93,8 +101,24 @@ aside {
 /* footer */
 
 footer {
-    background-color: cadetblue;
     grid-column: 1 / -1;
+    border-top: 2px solid #d6d4d4;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footcontainer {
+    width: inherit;
     display: flex;
     justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+footer a {
+    display: block;
+    font-size: 12px;
+}
+
+footer h4 {
+    margin: 5px;
 }
