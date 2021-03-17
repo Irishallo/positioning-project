@@ -61,12 +61,71 @@ figcaption {
 }
 
 article {
-    grid-column: 4 / -4;
+    grid-column: 5 / -5;
 }
 
+/* infographic */
 .infographic {
     background-color: aquamarine;
     grid-column: 3 / -3;
+}
+
+.infographic img {
+    width: 100%;
+}
+
+.infgratxt {
+    z-index: 2;
+    width: 228px;
+    font-size: 12px;
+}
+
+.igt1 {
+    position: relative;
+    top: -450px;
+    left: 0px;
+}
+
+.igt2 {
+    position: relative;
+    top: -580px;
+    left: 240px;
+}
+
+.igt3 {
+    position: relative;
+    top: -450px;
+    left: 500px;
+}
+
+.igt4 {
+    position: relative;
+    top: -450px;
+    left: 750px;
+}
+
+.igt5 {
+    position: relative;
+    top: -250px;
+    left: 0px;
+}
+
+.igt6 {
+    position: relative;
+    top: -250px;
+    left: 240px;
+}
+
+.igt7 {
+    position: relative;
+    top: -250px;
+    left: 500px;
+}
+
+.igt8 {
+    position: relative;
+    top: -250px;
+    left: 750px;
 }
 
 /* asides */
