@@ -66,73 +66,83 @@ article {
 
 /* infographic */
 .infographic {
-    background-color: aquamarine;
     grid-column: 3 / -3;
+}
+
+.infogrey {
+    color: #808080;
+}
+
+.infogr {
+    position: relative;
 }
 
 .infographic img {
     width: 100%;
 }
 
+.igtcontainer {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    position: absolute;
+    top: 0px;
+}
+
 .infgratxt {
     z-index: 2;
     width: 228px;
     font-size: 12px;
+
 }
 
 .igt1 {
-    position: relative;
-    top: -450px;
-    left: 0px;
+    grid-column: 1 /2;
+    grid-row: 2 /3;
 }
 
 .igt2 {
-    position: relative;
-    top: -580px;
-    left: 240px;
+    grid-column: 2 /3;
+    grid-row: 2 /3;
 }
 
 .igt3 {
-    position: relative;
-    top: -450px;
-    left: 500px;
+    grid-column: 3 /4;
+    grid-row: 2 /3;
 }
 
 .igt4 {
-    position: relative;
-    top: -450px;
-    left: 750px;
+    grid-column: 4 /5;
+    grid-row: 2 /3;
 }
 
 .igt5 {
-    position: relative;
-    top: -250px;
-    left: 0px;
+    grid-column: 1 /2;
+    grid-row: 4 /5;
 }
 
 .igt6 {
-    position: relative;
-    top: -250px;
-    left: 240px;
+    grid-column: 2 /3;
+    grid-row: 4 /5;
 }
 
 .igt7 {
-    position: relative;
-    top: -250px;
-    left: 500px;
+    grid-column: 3 /4;
+    grid-row: 4 /5;
 }
 
 .igt8 {
-    position: relative;
-    top: -250px;
-    left: 750px;
+    grid-column: 4 /5;
+    grid-row: 4 /5;
 }
 
 /* asides */
 .side1 {
-    grid-column: -3 / -1;
+    grid-column: -4 / -1;
     grid-row-start: 5;
     margin-right: 20px;
+    margin-top: 600px;
 }
 
 .side1 h3 {
