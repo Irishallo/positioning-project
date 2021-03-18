@@ -153,7 +153,17 @@ article {
     border-top: 2px solid #d6d4d4;
     grid-column: 1 / 12;
     margin-left: 20px;
-    
+}
+
+.side2container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.side2div {
+    border: 1px solid #d6d4d4;
+    padding: 15px;
 }
 
 .side3 {
